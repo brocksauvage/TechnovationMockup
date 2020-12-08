@@ -1,4 +1,4 @@
-# lesson-mockup
+# TechnovationMockup
 
 ## Project setup
 ```
