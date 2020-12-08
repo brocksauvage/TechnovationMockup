@@ -3,7 +3,7 @@
     <b-col v-if="label" col md="2" class="my-auto">
       <p class="mb-0 font-weight-bold text-right">{{label}}</p>
     </b-col>
-    <b-col v-for="pic in pictures" col md="4" class="my-auto">
+    <b-col v-for="pic in pictures" :key="pic" col md="4" class="my-auto">
       <b-img :src="'https://lh3.googleusercontent.com/'+pic" fluid></b-img>
     </b-col>
   </b-row>
